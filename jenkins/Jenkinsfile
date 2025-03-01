@@ -26,7 +26,7 @@ pipeline {
        stage('Checkout') {
             steps {
                 echo "Clonando la rama seleccionada: ${BRANCH_NAME}"
-                git branch: "${BRANCH_NAME}", url: 'https://github.com/jenkins-docs/simple-java-maven-app.git'
+                git branch: "${BRANCH_NAME}", url: 'https://github.com/kira0826/simple-java-maven-app.git'
             }
         }
 
